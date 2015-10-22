@@ -40,6 +40,10 @@
                  </div>
 
                  <% end %>
+                 <% if @question.answers.empty? %>
+                  <div class="alert alert-info"> nothing here yet , be the first to answer?</div>
+                
+                <% end %>
             </div>
          </div>
    </div>
